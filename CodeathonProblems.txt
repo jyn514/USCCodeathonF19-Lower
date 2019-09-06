@@ -1,0 +1,115 @@
+generate a truth table for a given number of variables
+output the given row number truth value
+
+input is numberOfVariables rowNumber
+
+example 1:
+2 3
+would output T F
+because the first row is F F, second is F T and the third row of the truth table when using two variables is T F
+A       B
+F       F 
+F       T
+T       F <----
+T       T
+
+example 2:
+  A       B       C
+1 F       F       F 
+2 F       F       T
+3 F       T       F 
+4 F       T       T
+5 T       F       F
+6 T       F       T
+7 T       T       F
+8 T       T       T
+
+Truth tables in this problem always start with all variables as false
+
+example 2
+
+################ make the number of variables really high, but ask for a small 
+row number to only look for that row / up to that row
+
+OR
+
+using genius solution of using mod % to only find certain spot
+
+
+
+
+Problem 2
+Sliding on Ice
+given inputs position of solid objects 
+navigate the player from starting position [shown by 2] using input 
+directions
+left right up down
+
+the player moves until a solid object is hit, or the edge of the board is hit
+solid object is shown as 1, empty space is shown as 0
+
+output the ending coordinates
+with 0,0 being in the bottom left [first column, bottom row]
+
+##########(potentially add arrows that shift the player by 1 row or column,
+ then continue in the 
+  direction they were going)
+
+given the input
+200010001
+000000000
+100000010
+010110101
+right
+down
+right
+up
+left
+
+
+would make the player end up at this position
+000012001
+000000000
+100000010
+010110101
+
+the state of the board after each move is 
+right
+000210001
+000000000
+100000010
+010110101
+
+down
+000010001
+000000000
+100200010
+010110101
+
+right
+000010001
+000000000
+100000210
+010110101
+
+up
+000010201
+000000000
+100000010
+010110101
+
+left
+000012001
+000000000
+100000010
+010110101
+
+and the output would be 
+5 3
+
+
+
+
+
+
+
