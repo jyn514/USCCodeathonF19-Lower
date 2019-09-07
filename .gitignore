@@ -1,0 +1,5 @@
+# Remove binaries
+*.out
+*.cmi
+*.cmx
+*.o
