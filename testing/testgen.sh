@@ -11,10 +11,4 @@ pushd $SCRIPT_DIR
     python3 ./solutions/solution.py < in/in$i >> out/out$i
   done
 
-  for i in "example1" "example2" "in11"
-  do
-    python3 ./solutions/solution.py < in/$i >> out/$i
-  done
-
-  mv out/in11 out/out11
 popd

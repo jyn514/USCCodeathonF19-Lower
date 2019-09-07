@@ -17,7 +17,7 @@ Brady go to sleep.
 
 $$0 \leq n \leq 10^4$$
 
-## Ouput
+## Output
 
 Print the lullaby according to the number of sheep given, starting at $$1$$, and
 ending at $$n$$, discluding all $$n\leq 0$$.
@@ -25,12 +25,13 @@ ending at $$n$$, discluding all $$n\leq 0$$.
 ### Sample Input 0
 
 ```
-0
+1
 ```
 
 ### Sample Output 0
 
 ```
+1 sheep... 
 ```
 
 ### Sample Input 1
@@ -44,3 +45,5 @@ ending at $$n$$, discluding all $$n\leq 0$$.
 ```
 1 sheep... 2 sheep...
 ```
+
+### Hint ^ Notice the spaces in between and at the end
