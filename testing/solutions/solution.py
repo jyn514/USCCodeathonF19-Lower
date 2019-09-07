@@ -15,4 +15,4 @@ totalpoints = 0
 for i in range(n):
     totalpoints += scores[i] * weights[i]
 
-print(math.floor((goal - totalpoints)/(1-sum(weights))))
+print(math.ceil((goal - totalpoints)/(1-sum(weights))))

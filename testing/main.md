@@ -27,7 +27,7 @@ $$weight_1$$ $$weight_2$$ $$\dots$$ $$weight_n$$
 
 $$0 \leq n \leq 10^2$$   
 $$0 \leq score_i, goal \leq 100$$   
-$$0 \leq weight_i \leq 1$$  
+$$0 \leq weight_i \leq 1$$ u
 
 
 ## Output
@@ -44,5 +44,5 @@ Print the integer necessary to score a $$goal$$ in Professor Smith's course.
 ## Sample Output 0
 
 ```
-95
+96
 ```
