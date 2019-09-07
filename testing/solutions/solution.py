@@ -1,15 +1,13 @@
 import math
-n = int(input())
-goal = int(input())
+x = input().split(" ")
+n = int(x[0])
+goal = int(x[1])
 
 scores = []
 weights = []
 
-for _ in range(n):
-    scores.append(int(input()))
-for _ in range(n):
-    weights.append(float(input()))
-
+scores = [int(x) for x in input().split(" ")]
+weights = [float(x) for x in input().split(" ")]
 
 totalpoints = 0
 for i in range(n):
