@@ -2,7 +2,7 @@
 import random
 weights = [1]
 while sum(weights) > 0.95:
-  n = random.randint(10,100)
+  n = random.randint(15,15)
   goal = random.randint(80,100)
   finalweight = random.random()
   # We want the sums to have a normal distribution around (1-finalweight)/2
