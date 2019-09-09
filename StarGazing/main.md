@@ -8,10 +8,10 @@ the stars form grids, and within those grids, certain patterns are made.
 
 ## Description
 
-Sal decides that certain patterns should be worth certain amounts so that he can brag to his fellow sky looker, Gary The Galaxy Watcher, about the points he got while watching stars.
+Sal decides that certain patterns should be worth certain amounts of points so that he can brag to his fellow sky looker, Gary The Galaxy Watcher, about the points he got while watching stars.
 To account for the fact that some of the patterns overlap, he will only count the pattern that is worth the most amount of 
-points. The point values for each pattern have nothing to do with the grid size, just the pattern itself. Each grid is guaranteed to have exactly one of the patterns identified below. The stars are also always in a grid that is an odd by odd size. 
-The stars only form one of the patterns shown below, with no extra stars.
+points. The point values for each pattern have nothing to do with the grid size, just the pattern itself. Each grid is guaranteed to have one of the patterns identified below. The stars are also always in a grid that is an odd by odd size. 
+The stars only form one of the patterns shown below, with no extra stars. All patterns require having 1's and 0's as described / shown.
 
 
 
@@ -55,7 +55,7 @@ The "plus" pattern is worth 15 points. It has a column of stars going through th
 000010000
 ```
 
-The 'checkerboard pattern' is worth 25 points. This one alternates stars and blank spaces, along rows and columns.
+The 'checkerboard pattern' is worth 25 points. This one alternates stars and blank spaces, along rows and columns. The upper left and bottom right are always 1's
 ```
 101010101
 010101010
